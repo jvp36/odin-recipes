@@ -1,6 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
 body {
     width: 80%;
     padding: 25px 50px;
+    margin: 0 auto;
     background-color: lightpink;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -27,16 +34,25 @@ h3 {
     font-size: 20px;
 }
 
-p, ul li, ol li {
+p, li {
     line-height: 1.5;
     font-size: 18px;
 }
-li a, a {
+a {
     text-decoration: none;
     color: black;
     font-size: 18px;
 }
-li a:hover, a:hover {
+a:hover {
     font-size: 20px;
     color: brown;
+}
+#recipes-list {
+    border: 1px solid brown;
+    padding: 20px;
+    width: fit-content; 
+    margin: 0 auto;
+}
+#recipes-list li {
+    list-style: none;
 }
