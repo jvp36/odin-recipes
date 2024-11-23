@@ -1,0 +1,42 @@
+body {
+    width: 80%;
+    padding: 25px 50px;
+    background-color: lightpink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    border: 1px solid brown;   
+}
+h1, h2, h3 {
+    color: brown;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+
+p, ul li, ol li {
+    line-height: 1.5;
+    font-size: 18px;
+}
+li a, a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+li a:hover, a:hover {
+    font-size: 20px;
+    color: brown;
+}
